@@ -7,7 +7,7 @@ function search() {
         data: 'Query=%27' + topic + '%27&$format=json&$top=8&Adult=%27Off%27&ImageFilters=%27Aspect%3ASquare%2BSize%3ALarge%2BColor%3AColor%2BStyle%3APhoto%27',
         method : 'GET',
         beforeSend : function(req) {
-            req.setRequestHeader('Authorization', 'Basic QUdtN0F5b1k3N3JxWTB0UHNEbnUzejJGTUo2R0tLVHkrSVFoVDEwbVFiST06QUdtN0F5b1k3N3JxWTB0UHNEbnUzejJGTUo2R0tLVHkrSVFoVDEwbVFiST0=');
+            req.setRequestHeader('Authorization', 'Basic ');
         },
         success: resultHandler
     });
